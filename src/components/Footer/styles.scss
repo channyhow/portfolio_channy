@@ -1,22 +1,35 @@
+@use './../../styles/vars';
+
 footer {
     display: flex;
-    height: 3rem;
-    background-color: burlywood;
+    height:3em;
+    // background-color: burlywood;
     justify-content: space-between;
     box-sizing: content-box;
     bottom: 0;
 position: fixed;
 width: 100%;
-
+padding-bottom: 3em;
+font-size: 2em;
 }
 
 img {
-    height: 2rem;
-    padding: 2rem;
+    height: 1.5em;
+    padding: 1.5em;
+}
+
+img:hover {
+    height: 1.6em;
 }
 
 .footer__elem {
-    padding: 1em;
+    padding: 1.5em;
+    font-size: 1.2em;
+}
+
+.footer__elem:hover {
+    font-weight: bold;
+    color: vars.$fifth;
 }
 
 .footer__right {

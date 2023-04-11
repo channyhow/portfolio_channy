@@ -5,7 +5,7 @@ function Navbar() {
     <div className="navbar">
 
       <div className="navbar__left">
-        <img src="./../../../icones-20.png" className="navbar__logo" alt="bonjour" />
+        {/* <img src="./../../../-.png" className="navbar__logo" alt="bonjour" /> */}
         <a href="#about" className="navbar__title"><h1 className="navbar__title">bonjour from channy</h1></a>
       </div>
 

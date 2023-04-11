@@ -9,8 +9,7 @@ function About() {
       </div>
       <div className="about__name">
         <h1> I'm Channy How,</h1>
-        <p>I'm a front web developer in the making,</p>
-
+        <h1>I'm a front web developer in the making,</h1>
       </div>
 
       <div className="about__description">
