@@ -1,7 +1,13 @@
 @use 'reset';
 @use 'vars';
 
+html {
+  width: 100vw;
+  height: 100vh;
+  background-color: vars.$secondary;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(69deg, rgba(10, 38, 117, 1) 19%, rgba(0, 47, 167, 1) 51%, rgba(8, 39, 125, 1) 70%);
+  color: vars.$third;
 }

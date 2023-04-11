@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+box-sizing: content-box;
+font-size: 2rem;
+font-weight: bold;
+padding: 1em;
+
+
+  &__list-elem {
+    text-transform: uppercase;
+    padding: 1em;
+    // background-color: pink;
+    
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    // background-color: palevioletred;
+    align-content: flex-start;
+}
+
+  &__right {
+    align-content: flex-end;
+    flex-wrap: wrap;
+    padding: 1em;
+
+  }
+
+&__logo {
+  height: 4em;
+    align-content: center;}
+    padding: 1em;
+
+
+  &__title {
+    padding: 1em;
+
+  }
+}
+
+
+a {
+  text-transform: uppercase;
+}
+
