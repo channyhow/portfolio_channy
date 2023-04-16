@@ -10,6 +10,7 @@ function Navbar() {
 
       <div className="navbar__right">
         <a href="/about" className="navbar__list-elem">about</a>
+        <a href="/work" className="navbar__list-elem">work</a>
         <a href="mailto:channyhow@gmail.com" className="navbar__list-elem">connect</a>
       </div>
 

@@ -3,18 +3,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 html {
-  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: vars.$secondary;
   background-image: url("./../../../public/logo hq_bleu.png");
   background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: right;
+  background-size:cover;
+  background-position: bottom;
+ 
 }
 
 
 body {
   font-family: "EB Garamond", serif;
-  color: vars.$third;
+  color: vars.$third;  
+
 }

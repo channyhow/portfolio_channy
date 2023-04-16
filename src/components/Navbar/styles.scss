@@ -9,6 +9,7 @@ box-sizing:border-box;
 font-size: 2em;
 padding: 3em;
 background: none;
+position:fixed;
 
   &__list-elem {
     padding: 1.5em;
@@ -16,7 +17,7 @@ background: none;
   }
 
   &__list-elem:hover {
-    font-weight: bold;
+    // font-weight: bold;
     color: vars.$fourth;
 
   }
@@ -27,9 +28,7 @@ background: none;
 
   &__right {
     padding: 1em;
-
   }
-
 
 
   &__title {
@@ -38,7 +37,7 @@ background: none;
   }
 
   &__title:hover {
-font-weight: bold;
+// font-weight: bold;
 color: vars.$fourth 
 }
 }

@@ -1,25 +1,31 @@
 import './styles.scss';
-// import {FaLinkedinIn} from 'react-icons/all';
+import {
+  FaLinkedinIn, FaEnvelope, FaMoon, FaSun,
+} from 'react-icons/fa';
+import { GiMonsteraLeaf } from 'react-icons/gi';
+
 function Footer() {
   return (
     <div className="footer">
 
       <div className="footer__left">
-        {/* <a href="#" className="footer__elem">DARK</a> */}
-        <a href="#" className="footer__elem">FR</a>
+        <a href="#" className="footer__darkmode">
+          <FaMoon />
+        </a>
 
       </div>
 
       <div className="footer__right">
 
         <a href="mailto:channyhow@gmail.com" className="footer__elem">
-          channyhow@gmail.com
-          {/* <img src="./../../../icones-18.png" alt="channy contact" /> */}
+          <FaEnvelope />
         </a>
-        {' '}
-        <a href="https://www.linkedin.com/in/channy-h-9093255a" className="footer__elem"><img src="./../../../icones-19.png" alt="linkedin" /></a>
-        {/* <a href="#" className="footer__elem"></a> */}
-        à bientôt
+
+        <a href="https://www.linkedin.com/in/channy-h-9093255a" className="footer__elem">
+          <FaLinkedinIn />
+        </a>
+
+        <a href="/" className="footer__bye"><GiMonsteraLeaf /></a>
       </div>
 
     </div>
