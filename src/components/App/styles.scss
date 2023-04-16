@@ -1,18 +1,10 @@
 @use './../../styles/vars';
 
-.app {
+.wrapper {
   // display: flex;
- width: 90vw;
- height: 90vh;
+ width: 100vw;
+ height: 100vh;
   margin: 0 auto;
-// height: 100vh;
-  // padding: 2rem;
   text-align: center;
   align-content: center;
-
-  // &__title {
-  //   text-align: center;
-  //   font-size: 2rem;
-  //   color: vars.$secondary;
-  // }
 }

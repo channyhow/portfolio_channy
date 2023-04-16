@@ -2,56 +2,44 @@
 
 .navbar {
   display: flex;
-  height: 3em;
   align-items: center;
   width: 100%;
   justify-content: space-between;
-box-sizing: content-box;
+box-sizing:border-box;
 font-size: 2em;
-// font-weight: bold;
-padding-top: 3em;
+padding: 3em;
+background: none;
 
   &__list-elem {
-    // text-transform: uppercase;
     padding: 1.5em;
-    // background-color: pink;
     font-size: 1.2em;
   }
 
   &__list-elem:hover {
     font-weight: bold;
-    color: vars.$fifth;
+    color: vars.$fourth;
 
   }
 
   &__left {
-    display: flex;
-    align-items: center;
-    // background-color: palevioletred;
-    align-content: flex-start;
+    display: flex; 
 }
 
   &__right {
-    align-content: flex-end;
-    flex-wrap: wrap;
     padding: 1em;
 
   }
 
-&__logo {
-  height: 4em;
-    align-content: center;}
-    padding: 2em;
 
 
   &__title {
-    padding: 1em;
     font-size: 1.4em;
+    color: vars.$primary;
   }
 
   &__title:hover {
 font-weight: bold;
-color: vars.$fifth;
+color: vars.$fourth 
 }
 }
 
