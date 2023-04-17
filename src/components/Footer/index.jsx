@@ -28,7 +28,7 @@ function Footer() {
           <FaEnvelope />
         </a>
 
-        <a href="https://www.linkedin.com/in/channy-h-9093255a" className="footer__elem">
+        <a href="https://www.linkedin.com/in/channy-how" className="footer__elem">
           <FaLinkedinIn />
         </a>
 
