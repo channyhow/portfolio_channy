@@ -51,7 +51,7 @@ function Work() {
         </div>
 
         <div className="work__exp">
-          <h1>Product development consultant at Kudo Surf (AUS)</h1>
+          <h1>Product development consultant</h1>
           <div className="work__details">
             <a href="https://www.ksboardriders.com/"><h2>Kudo Surf (AUS)</h2></a>
             <h3>2016-2017 | Guangzhou, China</h3>
@@ -104,7 +104,7 @@ function Work() {
         </div>
 
         <div className="work__exp">
-          <h1>Executive assistant to Managing Director</h1>
+          <h1>Executive assistant</h1>
           <div className="work__details">
             <h2>Smart Art furniture (FRA)</h2>
             <h3>01-2012 02-2013 | Dongguan, China</h3>
