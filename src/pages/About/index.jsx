@@ -17,14 +17,20 @@ function About() {
           </section>
 
           <section>
-            In a not so far past life, I was living 
+            In a not so far past life, I was living
             <span> in China </span>
-            working as a product developer in footwear, then funded my own footwear label in Hong Kong, which I ran from <span>2017 to 2021. </span> 
+            working as a product developer in footwear, then funded my own footwear label in Hong Kong, which I ran from
+            {' '}
+            <span>2017 to 2021. </span>
             In 2022, I came home to France, thought it was time to broaden my horizons and change directions, so here I am!
           </section>
 
           <section>
-            I've only started in December of 2022, so I'm a full newbie in most technologies, however I'm pretty keen on <span>React, I've used Express, NodeJs, Sequelize, EJS, Typescript,</span>  although I'm not yet an expert.
+            I've only started in December of 2022, so I'm a full newbie in most technologies, however I'm pretty keen on
+            {' '}
+            <span>React, I've used Express, NodeJs, Sequelize, EJS, Typescript,</span>
+            {' '}
+            although I'm not yet an expert.
             It is after all, only the beginning of what I hope will be a great adventure.
           </section>
 
