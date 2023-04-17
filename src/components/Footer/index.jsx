@@ -17,9 +17,8 @@ function Footer() {
         {/* </a> */}
         <a href="https://www.paris.fr/">
           <GrLocation />
-          <span>Paris</span>
         </a>
-
+        <span>Paris</span>
       </div>
 
       <div className="footer__right">
