@@ -6,17 +6,15 @@ html {
   width: 100vw;
   height: 100vh;
   // background-color: rgb(228, 221, 218);
-  background-color: vars.$third;
-  background-image: url("./../../../public/logo hq_rouge.png");
-  background-repeat: no-repeat;
-  background-size:  contain;
-  background-position: right;
- 
 }
 
 
 body {
   font-family: "EB Garamond", serif;
   color: vars.$fourth;  
-
+ background-color: vars.$third;
+  background-image: url("./../../../public/logo hq_rouge.png");
+  background-repeat: no-repeat;
+  background-size:  contain;
+  background-position: right;
 }
