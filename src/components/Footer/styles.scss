@@ -53,24 +53,28 @@ position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
+padding: 0em;
 
 &__right {
      display: flex;
     align-items: center;
-    padding:1em;
+    padding-left:1em;
     justify-content: space-evenly;
+    width: 50%;
 }
 
 &__left {
     display: flex;
     align-items: center;
-    padding:1em;
+    padding-right:1em;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
 
-a {
-  padding: 1em;
-}
+// a {
+//   padding: em;
+// }
 
 a:hover {
 color: vars.$fifth;
