@@ -9,10 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.12.0",
     "axios": "^1.3.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-material-ui-theme": "^1.0.9",
     "react-router-dom": "^6.10.0",
     "react-toggle-dark-mode": "^1.1.1"
   },

@@ -9,9 +9,9 @@ function Footer() {
     <div className="footer">
 
       <div className="footer__left">
-        <a href="#" className="footer__darkmode">
-          <FaMoon />
-        </a>
+        {/* <a href="#" className="footer__darkmode"> */}
+        {/* <FaMoon /> */}
+        {/* </a> */}
 
       </div>
 

@@ -6,6 +6,18 @@ function Work() {
     <div className="work">
 
       <div className="work__history">
+
+        <div className="work__exp">
+          <h1>Full stack Javascript developer</h1>
+          <div className="work__details">
+            <h2>O'Clock</h2>
+            <h3>2022-current, Paris | France</h3>
+
+          </div>
+          <div className="work__description">
+            Back to school.
+          </div>
+        </div>
         <div className="work__exp">
           <h1>Founder & Creative Director</h1>
           <div className="work__details">

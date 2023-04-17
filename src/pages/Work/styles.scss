@@ -16,6 +16,7 @@ overflow:visible ;
 h1 {
 font-weight: bold;
 font-size: 1.5em;
+color: vars.$secondary;
 }
 
 &__exp {
@@ -24,7 +25,7 @@ font-size: 1.5em;
     margin: 0 auto;
     padding: 2em;
     font-size: 1.2em;
-    background-color: 	rgb(0, 0, 0, 15%);
+    // background-color: 	rgb(0, 0, 0, 15%);
 
 }
 
@@ -33,7 +34,7 @@ font-size: 1.5em;
     width: 70%;
     justify-content: space-between;
   padding: 1em;
-    color: vars.$fourth;
+    color: vars.$primary;
     font-weight: bold;
     margin: 0 auto;
 }
