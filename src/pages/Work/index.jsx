@@ -19,7 +19,7 @@ function Work() {
           </div>
           <div className="work__description">
 
-            <p>Back to school</p>
+            <p>Back in school.</p>
             <div className="about_tech">
               <FaJs />
               <FaReact />
