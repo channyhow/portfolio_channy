@@ -13,7 +13,7 @@
 
   section {
         padding: 1.2em;
-        font-size: 1.2em;
+        font-size: 1em;
         text-align: center;
     }
     &__container {
@@ -22,7 +22,7 @@
 
     &__header {
         display: flex;
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 0.5em;
         justify-content: center;
         width: auto;
@@ -33,35 +33,6 @@
     span {
         font-weight: 600;
         }
-
-    &__title{
-        font-weight: bold;
-        font-size: 1.5em;
-    }
-
-    &__exp {
-        display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 2em;
-    font-size: 1.2em;
-    align-items: center;
-    font-weight: bold;
-    }
-
-    &__details{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-      padding: 1em;
-        color: vars.$primary;
-        font-weight: 500;
-        margin: 0 auto;
-    }
-    
-    &__description{
-        list-style-type: none;
-font-weight: 100;    }
 
     &__skills {
         box-sizing: border-box;
