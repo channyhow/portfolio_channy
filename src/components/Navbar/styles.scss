@@ -34,11 +34,12 @@ position:fixed;
   &__title {
     font-size: 1.4em;
     color: vars.$primary;
+    font-weight: bold;
   }
 
   &__title:hover {
 // font-weight: bold;
-color: vars.$fifth 
+color: vars.$fifth;
 }
 }
 

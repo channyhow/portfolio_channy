@@ -1,5 +1,8 @@
 /* eslint-disable max-len */
 import './styles.scss';
+import {
+  FaReact, FaJs, FaNodeJs, FaCss3, FaHtml5,
+} from 'react-icons/fa';
 
 function Work() {
   return (
@@ -10,12 +13,22 @@ function Work() {
         <div className="work__exp">
           <h1>Full stack Javascript developer</h1>
           <div className="work__details">
-            <h2>O'Clock</h2>
+            <a href="https://oclock.io/"><h2>O'Clock</h2></a>
             <h3>2022-current, Paris | France</h3>
 
           </div>
           <div className="work__description">
-            Back to school.
+
+            <p>Back to school</p>
+            <div className="about_tech">
+              <FaJs />
+              <FaReact />
+              <FaNodeJs />
+              <FaCss3 />
+              <FaHtml5 />
+
+            </div>
+
           </div>
         </div>
         <div className="work__exp">
@@ -40,7 +53,7 @@ function Work() {
         <div className="work__exp">
           <h1>Product development consultant at Kudo Surf (AUS)</h1>
           <div className="work__details">
-            <h2>Kudo Surf (AUS)</h2>
+            <a href="https://www.ksboardriders.com/"><h2>Kudo Surf (AUS)</h2></a>
             <h3>2016-2017 | Guangzhou, China</h3>
           </div>
           <div className="work__description">

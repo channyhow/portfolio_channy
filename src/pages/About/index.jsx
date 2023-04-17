@@ -10,72 +10,81 @@ function About() {
 
       <div className="about__container">
         <div className="about__objective">
-          <h2 className="about__title">Hi, I'm Channy!</h2>
-          <p>
-            I'm a French Front-end developer in the making, meaning, I'm still studying in school.
-            <br />
-            In a not so far past life, I was living abroad working a product developer in footwear, then funded my own footwear label, which I ran from 2017 to 2021.
-            In 2022, I came home to France and decided to broaden my horizons and get back to studying, so here I am!
+          <h2 className="about__header">Hi, I'm Channy!</h2>
 
-            I've just started using React and I'm looking for opportunities to learn and practice more.
+          <section>
+            I'm a French full stack JavaScript developer in the making, meaning I am back in school studying Javascript.
+          </section>
 
-          </p>
+          <section>
+            In a not so far past life, I was living 
+            <span> in China </span>
+            working as a product developer in footwear, then funded my own footwear label in Hong Kong, which I ran from <span>2017 to 2021. </span> 
+            In 2022, I came home to France, thought it was time to broaden my horizons and change directions, so here I am!
+          </section>
+
+          <section>
+            I've only started in December of 2022, so I'm a full newbie in most technologies, however I'm pretty keen on <span>React, I've used Express, NodeJs, Sequelize, EJS, Typescript,</span>  although I'm not yet an expert.
+            It is after all, only the beginning of what I hope will be a great adventure.
+          </section>
+
         </div>
 
-        <div className="work__history">
+        {/* <div className="about__education">
 
-<div className="work__exp">
-  <h1>Full stack Javascript developer</h1>
-  <div className="work__details">
-    <h2>O'Clock</h2>
-    <h3>2022-current, Paris | France</h3>
+          <div className="about__exp">
 
-  </div>
-  <div className="work__description">
-    Back to school.
-  </div>
-</div>
-<div className="work__exp">
-  <h1>Founder & Creative Director</h1>
-  <div className="work__details">
-    <h2>Les voyageuses</h2>
-    <h3>2017 – 2021, Sydney | Australia</h3>
+            <div className="about__details">
+              <h1>Full stack Javascript developer training</h1>
+              <a href="https://oclock.io/"><h2>O'Clock</h2></a>
+              <h3>2022-current, Paris | France</h3>
 
-  </div>
-  <div className="work__description">
-    <li>Founded and developed a boutique footwear label focusing on noble materials.</li>
-    <li>Built a business plan and strategy and raised capital to start Les voyageuses</li>
-    <li>Managed a full set of processes from sketch for sample development to retail.</li>
-    <li>Planned marketing strategy, content marketing, social media marketing.</li>
-    <li>Created content for social, website, advertising, EDM.</li>
-    <li>Developed a B2C platform on Shopify and adapted it for better customer experience</li>
+            </div>
+            <div className="about__description">
+              Back to school. Training to be a JS Full stack web dev.
+            </div>
+          </div>
 
-  </div>
+          <div className="about__exp">
 
-</div>
-</div>
+            <div className="about__details">
+              <h1>Chinese Language Studies Associate degree</h1>
+              <a href="http://english.blcu.edu.cn/">
+                <h2>Beijing Language and Culture University</h2>
+              </a>
+              <h3>2009-2011, Beijing | China </h3>
+            </div>
+          </div>
+        </div>
 
-        <h2 className="about__title">Skills</h2>
+        <div className="about__exp">
+
+          <div className="about__details">
+            <h1>Marketing and Advertising</h1>
+            <a href="https://www.iscom.fr/">
+              <h2>ISCOM</h2>
+            </a>
+            <h3>2005-2008, Paris | France </h3>
+          </div>
+        </div> */}
+
+        <h2 className="about__header">Skills</h2>
         <div className="about__skills">
           <div className="about__left">
             <ul>
               <li>
-
                 CSS
                 <RiArrowDropLeftFill />
               </li>
               <li>
-
                 NodeJs
                 <RiArrowDropLeftFill />
               </li>
               <li>
-
                 JavaScript (ES6+)
                 <RiArrowDropLeftFill />
               </li>
               <li>
-
                 TypeScript
                 <RiArrowDropLeftFill />
               </li>
@@ -104,7 +113,6 @@ function About() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }

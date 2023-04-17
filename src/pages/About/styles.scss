@@ -15,16 +15,16 @@
         // border: 1px solid vars.$primary;
     }
 
-    p {
+  section {
         padding: 1.2em;
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-align: center;
     }
     &__container {
-        width: 50%;
+        width:80%;
     }
 
-    &__title {
+    &__header {
         display: flex;
         // border: 1px solid pink;
         font-size: 2em;
@@ -32,13 +32,51 @@
         justify-content: center;
         width: auto;
         color: vars.$secondary;
+        font-weight: bold;
     }
+
+    span {
+        font-weight: 600;
+        }
+
+    &__title{
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    &__exp {
+        display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2em;
+    font-size: 1.2em;
+    align-items: center;
+    font-weight: bold;
+    }
+
+    &__details{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      padding: 1em;
+        color: vars.$primary;
+        font-weight: 500;
+        margin: 0 auto;
+    }
+    
+    &__description{
+        list-style-type: none;
+font-weight: 100;    }
 
     &__skills {
         box-sizing: border-box;
         display: flex;
         // border: 1px solid pink;
     }
+
+    li :hover {
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);}
 
     &__left {
         text-align: right;

@@ -2,6 +2,9 @@ import './styles.scss';
 import {
   FaLinkedinIn, FaEnvelope, FaMoon, FaSun,
 } from 'react-icons/fa';
+import {
+  GrLocation,
+} from 'react-icons/gr';
 import { GiMonsteraLeaf } from 'react-icons/gi';
 
 function Footer() {
@@ -12,6 +15,10 @@ function Footer() {
         {/* <a href="#" className="footer__darkmode"> */}
         {/* <FaMoon /> */}
         {/* </a> */}
+        <a href="https://www.paris.fr/">
+          <GrLocation />
+          <span>Paris</span>
+        </a>
 
       </div>
 

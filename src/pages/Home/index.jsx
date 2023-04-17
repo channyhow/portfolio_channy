@@ -11,9 +11,10 @@ function Home() {
       nice to meet you!
       <div className="home__info">
         I'm a Front-end developer in the making
-
-        and I'm looking for an
-        <span> internship!</span>
+        <div>
+          and I'm looking for an
+          <span> internship!</span>
+        </div>
 
       </div>
     </div>
